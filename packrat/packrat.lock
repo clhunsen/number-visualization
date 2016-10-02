@@ -1,0 +1,94 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.8.1
+RVersion: 3.3.1
+Repos: BioCsoft=https://bioconductor.org/packages/3.3/bioc,
+    BioCann=https://bioconductor.org/packages/3.3/data/annotation,
+    BioCexp=https://bioconductor.org/packages/3.3/data/experiment,
+    BioCextra=https://bioconductor.org/packages/3.3/extra,
+    CRAN=https://cran.rstudio.com
+
+Package: DBI
+Source: CRAN
+Version: 0.5-1
+Hash: 375869004db963f9915f2b8a49b4a718
+
+Package: GlobalOptions
+Source: CRAN
+Version: 0.0.10
+Hash: 188372cc53cd743c621e7847edb6df0d
+
+Package: RSQLite
+Source: CRAN
+Version: 1.0.0
+Hash: 3df52a54766f420d257debad962146c0
+Requires: DBI
+
+Package: Rcpp
+Source: CRAN
+Version: 0.12.7
+Hash: f0ba7322cfb66f1b563462faa9c2b2ab
+
+Package: chron
+Source: CRAN
+Version: 2.3-47
+Hash: d25d96d908cd21080f24c89eed4c80a0
+
+Package: circlize
+Source: CRAN
+Version: 0.3.9
+Hash: 45aac5f8bf1c66bb234b1c5f381b6062
+Requires: GlobalOptions, colorspace, shape
+
+Package: colorspace
+Source: CRAN
+Version: 1.2-6
+Hash: 00bb12245cd975c450cc4a960884fa15
+
+Package: gsubfn
+Source: CRAN
+Version: 0.6-6
+Hash: cc1999b8ee76bbf10c968ac973290421
+Requires: proto
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+Hash: bdc4d48c3135e8f3b399536ddf160df4
+
+Package: packrat
+Source: CRAN
+Version: 0.4.8-1
+Hash: 6ad605ba7b4b476d84be6632393f5765
+
+Package: plyr
+Source: CRAN
+Version: 1.8.4
+Hash: 75ca080b10a9314a9b293964331e5df7
+Requires: Rcpp
+
+Package: proto
+Source: CRAN
+Version: 0.3-10
+Hash: 05d7ad64db29a39d1b02c4b9f1f4edb2
+
+Package: shape
+Source: CRAN
+Version: 1.4.2
+Hash: 0bd79a294121e87cf8a0bc0e2c6bb12c
+
+Package: sqldf
+Source: CRAN
+Version: 0.4-10
+Hash: 46cd78edf0fc3c746c7d26f44fcb4e50
+Requires: DBI, RSQLite, chron, gsubfn, proto
+
+Package: stringi
+Source: CRAN
+Version: 1.1.2
+Hash: 1ad6b1cc11d982ac233bf2fa2f7c9684
+
+Package: stringr
+Source: CRAN
+Version: 1.1.0
+Hash: 4d21d0063b37a17ea18eaec6acd29bf3
+Requires: magrittr, stringi
